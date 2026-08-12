@@ -11,14 +11,14 @@ Page statique (HTML/CSS) de [dha-expat.com](https://www.dha-expat.com), type "li
 ## Design
 
 - Fond en dégradé bleu clair, avatar avec anneau rouge et halo.
-- Bloc mis en avant "Les Devs Affranchis" (Skool) en tête de page : carte sombre avec CTA vers la communauté revenu passif / apps mobiles.
+- Bloc mis en avant "Mobile Lab" (Skool) en tête de page : carte sombre avec CTA vers la communauté revenu passif / apps mobiles.
 - Liens présentés en boutons blancs avec pastille d'icône colorée par plateforme.
 - Icônes via Font Awesome Free (CDN).
 - Responsive : ajustements pour les écrans < 480px.
 
 ## Liens
 
-Discord, coaching (TidyCal), Skool (Les Devs Affranchis), YouTube DHA Expat, chaîne IT (Dev Affranchi), Instagram, TikTok, assurance SafetyWing, contact pro.
+Discord, coaching (TidyCal), Skool (Mobile Lab), YouTube DHA Expat, chaîne IT (Dev Affranchi), Instagram, TikTok, assurance SafetyWing, contact pro.
 
 ## Aperçu local
 
