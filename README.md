@@ -1,18 +1,24 @@
 # DHA Expat — Vitrine
 
-Réplique statique (HTML/CSS) de la page [dha-expat.com](https://www.dha-expat.com), type "link in bio".
+Page statique (HTML/CSS) de [dha-expat.com](https://www.dha-expat.com), type "link in bio".
 
 ## Contenu
 
 - `index.html` — structure de la page
-- `style.css` — mise en page, couleurs, typographie (police Karla, boutons blancs avec ombre sur fond bleu clair)
+- `style.css` — mise en page, couleurs, typographie (police Karla)
 - `assets/logo.png` — avatar / logo DHA Expat
 
-## Notes
+## Design
 
+- Fond en dégradé bleu clair, avatar avec anneau rouge et halo.
+- Bloc mis en avant "Les Devs Affranchis" (Skool) en tête de page : carte sombre avec CTA vers la communauté revenu passif / apps mobiles.
+- Liens présentés en boutons blancs avec pastille d'icône colorée par plateforme.
 - Icônes via Font Awesome Free (CDN).
-- L'illustration décorative (avion en papier + pièce) présente en bas à gauche du site original est un asset du page-builder (Systeme.io) et n'a pas été repris ici — à remplacer par un visuel propre si besoin.
-- Les liens (Discord, coaching, guide, réseaux sociaux) sont ceux du site original.
+- Responsive : ajustements pour les écrans < 480px.
+
+## Liens
+
+Discord, coaching (TidyCal), Skool (Les Devs Affranchis), YouTube DHA Expat, chaîne IT (Dev Affranchi), Instagram, TikTok, assurance SafetyWing, contact pro.
 
 ## Aperçu local
 
