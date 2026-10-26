@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enchère : ton produit dans une vidéo DHA Expat</title>
+<meta name="description" content="Enchère à partir de 1€ pour un placement produit dans une vidéo DHA Expat. Pli fermé, un gagnant, une intégration de 60 secondes.">
+<meta property="og:title" content="Enchère : ton produit dans une vidéo DHA Expat">
+<meta property="og:description" content="Mise à prix 1€. Le plus haut montant gagne un placement de 60 secondes dans une de mes vidéos.">
+<meta property="og:image" content="assets/logo.png">
+<meta name="theme-color" content="#050a12">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="auction.css">
+</head>
+<body>
+<section class="page">
+  <div class="container container--wide">
+
+    <a class="back" href="/"><i class="fa-solid fa-arrow-left"></i> DHA Expat</a>
+
+    <header class="auction-hero">
+      <span class="tag"><i class="fa-solid fa-gavel"></i> Enchère de lancement</span>
+      <h1 class="auction-title">Ton produit dans une vidéo DHA Expat</h1>
+      <p class="auction-sub">Une enchère à partir de 1€. Un gagnant. Une intégration de 60 secondes, présentée par moi, dans une de mes vidéos.</p>
+
+      <div class="countdown" id="countdown">
+        <div class="countdown__label">Fin de l'enchère</div>
+        <div class="countdown__clock" id="clock">--j --h --m --s</div>
+        <div class="countdown__date">Mardi 3 novembre 2026, 23h59 (Hô Chi Minh-Ville)</div>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><strong>1€</strong><span>mise à prix</span></div>
+        <div class="stat"><strong>16,4k</strong><span>abonnés</span></div>
+        <div class="stat"><strong>21k</strong><span>vues en moyenne</span></div>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2><i class="fa-solid fa-box-open"></i> Ce que tu gagnes</h2>
+      <ul class="check-list">
+        <li>60 secondes de mention dans une vidéo DHA Expat (format 8 à 15 minutes).</li>
+        <li>Ton produit à l'écran et ton lien en description.</li>
+        <li>Ton code promo si tu en as un.</li>
+        <li>Publication sous 90 jours après le paiement.</li>
+      </ul>
+      <h3>Ce que tu n'achètes pas</h3>
+      <ul class="cross-list">
+        <li>Une garantie de vues. 21 000 en moyenne, mais une vidéo peut faire 5 000 ou 50 000.</li>
+        <li>Une garantie de ventes.</li>
+        <li>Le contrôle éditorial. Je choisis l'angle, le moment et la façon de présenter le produit.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><i class="fa-solid fa-scale-balanced"></i> Les règles</h2>
+      <ol class="rules-list">
+        <li><strong>Enchère à pli fermé.</strong> Tu envoies ton montant, personne ne voit les autres montants avant la fin.</li>
+        <li><strong>Mise à prix 1€.</strong> Pas de plafond, pas d'incrément minimum.</li>
+        <li><strong>Fin le mardi 3 novembre 2026 à 23h59</strong>, heure de Hô Chi Minh-Ville.</li>
+        <li><strong>Le plus haut montant gagne.</strong> En cas d'égalité, le premier reçu l'emporte.</li>
+        <li><strong>Paiement sous 48h.</strong> Sans paiement, le deuxième montant gagne.</li>
+        <li><strong>Droit de refus.</strong> Je peux refuser un produit illégal, trompeur ou hors sujet. Dans ce cas, remboursement intégral et le deuxième gagne.</li>
+        <li><strong>Catégories exclues:</strong> crypto, paris, prêts, MLM, promesses de revenus, alcool, tabac, armes, santé miracle.</li>
+        <li><strong>Transparence.</strong> La vidéo portera la mention "collaboration commerciale" et la case "paid promotion" sur YouTube.</li>
+      </ol>
+    </section>
+
+    <section class="card card--form">
+      <h2><i class="fa-solid fa-gavel"></i> Ton enchère</h2>
+
+      <div class="success" id="success" hidden>
+        <i class="fa-solid fa-circle-check"></i>
+        <div>
+          <strong>Enchère envoyée.</strong>
+          <p>Tu recevras un email de confirmation. Je te contacte si tu gagnes, le 4 novembre.</p>
+        </div>
+      </div>
+
+      <form id="bidForm" action="https://formsubmit.co/dhabeverage@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Enchère placement produit DHA Expat">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://dha-expat.com/auction.html?envoye=1">
+        <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <div class="field">
+          <label for="name">Pseudo ou nom</label>
+          <input id="name" name="Nom" type="text" required maxlength="80" autocomplete="name" placeholder="Ton nom">
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="Email" type="email" required maxlength="120" autocomplete="email" placeholder="toi@exemple.com">
+        </div>
+
+        <div class="field">
+          <label for="product">Lien du produit</label>
+          <input id="product" name="Produit" type="url" required maxlength="300" inputmode="url" placeholder="https://ton-produit.com">
+        </div>
+
+        <div class="field">
+          <label for="amount">Ton montant en euros</label>
+          <div class="amount-wrap">
+            <input id="amount" name="Montant" type="number" required min="1" step="1" inputmode="decimal" placeholder="1">
+            <span class="amount-suffix">€</span>
+          </div>
+          <p class="hint">Minimum 1€. Aucun paiement maintenant.</p>
+        </div>
+
+        <div class="field">
+          <label for="pitch">En une phrase, c'est quoi ton produit ? <span>(optionnel)</span></label>
+          <textarea id="pitch" name="Pitch" rows="2" maxlength="300" placeholder="Ex: une app qui aide les expats à remplir leurs papiers"></textarea>
+        </div>
+
+        <label class="consent">
+          <input type="checkbox" name="Regles" value="acceptees" required>
+          <span>J'ai lu les règles et je les accepte. Je comprends que le placement ne garantit ni vues ni ventes.</span>
+        </label>
+
+        <p class="error" id="error" hidden></p>
+
+        <button class="submit" type="submit">Envoyer mon enchère <i class="fa-solid fa-arrow-right"></i></button>
+        <p class="hint center">Pas de paiement maintenant. Tu recevras un email de confirmation.</p>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2><i class="fa-solid fa-circle-question"></i> Questions</h2>
+      <details>
+        <summary>Pourquoi 1€ ?</summary>
+        <p>Parce que le prix, c'est le marché qui le fait. Et parce que je préfère un produit que tu as vraiment envie de montrer à un sponsor qui paie juste pour être là.</p>
+      </details>
+      <details>
+        <summary>Et si personne n'enchérit ?</summary>
+        <p>Tant pis pour moi, je garde le slot. L'enchère ne me coûte rien à part la page.</p>
+      </details>
+      <details>
+        <summary>Tu garantis les vues ?</summary>
+        <p>Non. Je vends un placement, pas un résultat. La moyenne est de 21 000 vues par vidéo, mais elle cache des vidéos à 5 000 et d'autres à 250 000.</p>
+      </details>
+      <details>
+        <summary>Je peux choisir la vidéo ?</summary>
+        <p>Non. Je choisis la vidéo et le moment. Tu peux me donner tes contraintes de date, je fais au mieux.</p>
+      </details>
+      <details>
+        <summary>Comment je paie si je gagne ?</summary>
+        <p>Par Stripe, sous 48h. Tu reçois un lien de paiement par email.</p>
+      </details>
+    </section>
+
+    <footer class="foot">
+      <span>DHA Expat</span>
+    </footer>
+
+  </div>
+</section>
+
+<script>
+  const END = new Date('2026-11-03T23:59:59+07:00').getTime();
+  const clock = document.getElementById('clock');
+  const form = document.getElementById('bidForm');
+  const success = document.getElementById('success');
+  const error = document.getElementById('error');
+
+  function tick() {
+    const diff = END - Date.now();
+    if (diff <= 0) {
+      clock.textContent = 'Enchère terminée';
+      form.querySelectorAll('input, textarea, button').forEach(el => el.disabled = true);
+      return;
+    }
+    const s = Math.floor(diff / 1000);
+    const d = Math.floor(s / 86400);
+    const h = Math.floor((s % 86400) / 3600);
+    const m = Math.floor((s % 3600) / 60);
+    const sec = s % 60;
+    clock.textContent = `${d}j ${String(h).padStart(2, '0')}h ${String(m).padStart(2, '0')}m ${String(sec).padStart(2, '0')}s`;
+  }
+  tick();
+  setInterval(tick, 1000);
+
+  if (new URLSearchParams(location.search).has('envoye')) {
+    form.hidden = true;
+    success.hidden = false;
+  }
+
+  form.addEventListener('submit', (e) => {
+    const amount = Number(document.getElementById('amount').value);
+    if (!Number.isFinite(amount) || amount < 1) {
+      e.preventDefault();
+      error.textContent = 'Le montant minimum est de 1€.';
+      error.hidden = false;
+      document.getElementById('amount').focus();
+      return;
+    }
+    error.hidden = true;
+  });
+</script>
+</body>
+</html>
