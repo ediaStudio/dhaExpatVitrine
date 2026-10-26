@@ -82,101 +82,6 @@ body {
   margin: 0;
 }
 
-/* Skool feature card */
-.skool {
-  display: flex;
-  gap: 16px;
-  align-items: flex-start;
-  text-decoration: none;
-  color: #fff;
-  border-radius: 18px;
-  padding: 20px;
-  margin-bottom: 26px;
-  background:
-    radial-gradient(620px 210px at 100% 0%, rgba(229,57,53,0.28) 0%, rgba(229,57,53,0) 55%),
-    linear-gradient(135deg, #10294d 0%, #1b3b6a 100%);
-  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
-
-.skool::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(120deg, rgba(255,255,255,0.10), rgba(255,255,255,0) 40%);
-  pointer-events: none;
-}
-
-.skool:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 24px 54px rgba(0, 0, 0, 0.6);
-}
-
-.skool__badge {
-  flex: 0 0 auto;
-  width: 52px;
-  height: 52px;
-  border-radius: 14px;
-  background: linear-gradient(135deg, var(--red) 0%, var(--red-dark) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
-  color: #fff;
-  box-shadow: 0 8px 18px rgba(229, 57, 53, 0.45);
-}
-
-.skool__body { display: flex; flex-direction: column; }
-
-.skool__tag {
-  display: inline-block;
-  align-self: flex-start;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #ffd7d5;
-  background: rgba(229, 57, 53, 0.22);
-  border: 1px solid rgba(229, 57, 53, 0.4);
-  padding: 3px 9px;
-  border-radius: 999px;
-  margin-bottom: 8px;
-}
-
-.skool__title {
-  font-size: 19px;
-  font-weight: 800;
-  line-height: 1.25;
-  margin-bottom: 6px;
-}
-
-.skool__text {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.45;
-  color: #b9c9df;
-  margin-bottom: 14px;
-}
-
-.skool__cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  align-self: flex-start;
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--navy);
-  background: #fff;
-  padding: 10px 16px;
-  border-radius: 10px;
-  transition: gap 0.18s ease, background 0.18s ease;
-}
-
-.skool:hover .skool__cta { gap: 12px; background: #ffeceb; }
-
 /* Link buttons */
 .links {
   display: flex;
@@ -269,8 +174,6 @@ body {
   .page { padding: 44px 14px 52px; }
   .title { font-size: 27px; }
   .subtitle { font-size: 15px; }
-  .skool { padding: 16px; gap: 13px; }
-  .skool__title { font-size: 17px; }
   .btn { font-size: 16px; padding: 13px 14px; }
   .btn__ico { width: 38px; height: 38px; font-size: 17px; }
 }
